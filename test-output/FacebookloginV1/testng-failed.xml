@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FacebookloginV1]">
+  <test thread-count="5" name="FaceBook Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.facebook.TestCases.TC_FacebookChangepass_003">
+        <methods>
+          <include name="setup"/>
+          <include name="facechangepassword"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.facebook.TestCases.TC_FacebookChangepass_003 -->
+    </classes>
+  </test> <!-- FaceBook Test(failed) -->
+</suite> <!-- Failed suite [FacebookloginV1] -->

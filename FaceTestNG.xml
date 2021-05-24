@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FacebookloginV1">
+
+<test name="FaceBook Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			 <!--  <class name="com.facebook.TestCases.TC_FacebookLogin_001" /> --> 
+			<!-- <class name="com.facebook.TestCases.TC_FacebookLoginDDT_002" /> --> 
+				<class name="com.facebook.TestCases.TC_FacebookChangepass_003" />
+		</classes>
+
+	</test>
+
+</suite>
